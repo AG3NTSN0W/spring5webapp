@@ -38,7 +38,7 @@ public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> 
 
         //Eric
         Author eric = new Author("Eric", ">>>");
-        Book ericBooks = new Book("","",publisherA);
+        Book ericBooks = new Book("Title1","",publisherA);
         eric.getBooks().add(ericBooks);
         ericBooks.getAuthors().add(eric);
 
@@ -50,7 +50,7 @@ public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> 
 
         //Rob
         Author rob = new Author("Rob", "????");
-        Book robBooks = new Book("","",publisherB);
+        Book robBooks = new Book("Title2","",publisherB);
         rob.getBooks().add(robBooks);
         ericBooks.getAuthors().add(rob);
 
